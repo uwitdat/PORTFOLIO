@@ -12,14 +12,14 @@ class App extends Component {
           <div id='proj'>Projects</div>
       </nav>
         <div className='img'>
-        <div className='circle'></div>
-         <img id='chef' src='Chef (78).png'></img> 
+ 
         </div>
+
         <div className='flexlink'>
 
-          <div><img id='link' src='gh.png'></img>
-          <img id='link' src='LI-In-Bug.png'></img>
-          <img id='link' src='fb.png'></img></div>
+          <div><img id='link' src='gh.png'></img></div>
+          <div><img id='link' src='LI-In-Bug.png'></img></div>
+          <div><img id='link' src='face.png'></img></div>
 
         </div>
       </div>

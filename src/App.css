@@ -18,50 +18,50 @@ nav {
 
 #ben {
   animation: shadow-hover 4s, shadow 4s infinite ease-out;
-  transition: 0.3s;
+  transition: 0.4s;
 }
 
 #ben:hover {
   animation: shadow 4s, shadow-hover 4s infinite ease-out;
   color: #ffffff;
   cursor: pointer;
-  transition: 0.3s;
+  transition: 0.4s;
 }
 
 #abt {
   animation: shadow-hover 4s, shadow 4s infinite ease-out;
-  transition: 0.3s;
+  transition: 0.4s;
 }
 
 #abt:hover {
   animation: shadow 4s, shadow-hover 4s infinite ease-out;
   color: #ffffff;
   cursor: pointer;
-  transition: 0.3s;
+  transition: 0.4s;
 }
 
 #rsm {
   animation: shadow-hover 4s, shadow 4s infinite ease-out;
-  transition: 0.3s;
+  transition: 0.4s;
 }
 
 #rsm:hover {
   animation: shadow 4s, shadow-hover 4s infinite ease-out;
   color: #ffffff;
   cursor: pointer;
-  transition: 0.3s;
+  transition: 0.4s;
 }
 
 #proj {
   animation: shadow-hover 4s, shadow 4s infinite ease-out;
-  transition: 0.3s;
+  transition: 0.4s;
 }
 
 #proj:hover {
   animation: shadow 4s, shadow-hover 4s infinite ease-out;
   color: #ffffff;
   cursor: pointer;
-  transition: 0.3s;
+  transition: 0.4s;
 }
 
 @keyframes shadow {
@@ -111,14 +111,11 @@ nav > div:first-child {
 }
 
 .circle {
-  position: absolute;
+  position: fixed;
   background-color: rgba(255, 161, 177, 0.719);
   clip-path: circle(30rem at left 50rem);
   height: 100vh;
   width: 100vw;
-}
-.links > li {
-  list-style: none;
 }
 
 #link {
@@ -126,15 +123,22 @@ nav > div:first-child {
   width: 2rem;
   margin-right: 5rem;
   transition: 0.3s;
+  filter: grayscale(100%);
+  transition: 0.4s;
 }
 
 #link:hover {
   transform: scale(1.1);
+  filter: none;
 }
 
 .flexlink {
   display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
+  position: fixed;
+  width: 100vw;
+  bottom: 0;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
+  margin-bottom: 1rem;
 }
