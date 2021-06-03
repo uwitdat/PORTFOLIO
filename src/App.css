@@ -7,27 +7,71 @@ nav {
   font-family: "Staatliches", cursive;
   font-size: 2rem;
   background-color: rgb(255, 161, 177);
+  color: #5e1414;
+}
+
+#ben {
+  animation: shadow-hover 3s, shadow 3s infinite ease-out;
+}
+
+#ben:hover {
+  animation: shadow 3s, shadow-hover 3s infinite ease-out;
   color: #ffffff;
-  animation: shadow 3s infinite ease-out;
+}
+
+#abt {
+  animation: shadow-hover 3s, shadow 3s infinite ease-out;
+}
+
+#abt:hover {
+  animation: shadow 3s, shadow-hover 3s infinite ease-out;
+  color: #ffffff;
+}
+
+#rsm {
+  animation: shadow-hover 3s, shadow 3s infinite ease-out;
+}
+
+#rsm:hover {
+  animation: shadow 3s, shadow-hover 3s infinite ease-out;
+  color: #ffffff;
+}
+
+#proj {
+  animation: shadow-hover 3s, shadow 3s infinite ease-out;
+}
+
+#proj:hover {
+  animation: shadow 3s, shadow-hover 3s infinite ease-out;
+  color: #ffffff;
 }
 
 @keyframes shadow {
   0% {
-    text-shadow: -20px -1px 0px #000000ad;
+    text-shadow: -20px 0px 0px #e6e6e6cb;
   }
   50% {
-    text-shadow: -40px -5px 0px #000000ad;
+    text-shadow: -40px 0px 0px #e6e6e6cb;
   }
 
   100% {
-    text-shadow: -20px -1px 0px #000000ad;
+    text-shadow: -20px 0px 0px #e6e6e6cb;
+  }
+}
+
+@keyframes shadow-hover {
+  0% {
+    text-shadow: -20px 0px 0px #5e1414c0;
+  }
+  50% {
+    text-shadow: -40px 0px 0px #5e1414c0;
+  }
+
+  100% {
+    text-shadow: -20px 0px 0px #5e1414c0;
   }
 }
 
 nav > div:first-child {
   font-size: 2.7rem;
-}
-
-nav > div:hover {
-  color: rgb(194, 194, 194);
 }
