@@ -1,3 +1,9 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: transparent;
+}
+
 nav {
   border: 1px solid transparent;
   display: flex;
@@ -11,51 +17,63 @@ nav {
 }
 
 #ben {
-  animation: shadow-hover 3s, shadow 3s infinite ease-out;
+  animation: shadow-hover 4s, shadow 4s infinite ease-out;
+  transition: 0.3s;
 }
 
 #ben:hover {
-  animation: shadow 3s, shadow-hover 3s infinite ease-out;
+  animation: shadow 4s, shadow-hover 4s infinite ease-out;
   color: #ffffff;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
 #abt {
-  animation: shadow-hover 3s, shadow 3s infinite ease-out;
+  animation: shadow-hover 4s, shadow 4s infinite ease-out;
+  transition: 0.3s;
 }
 
 #abt:hover {
-  animation: shadow 3s, shadow-hover 3s infinite ease-out;
+  animation: shadow 4s, shadow-hover 4s infinite ease-out;
   color: #ffffff;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
 #rsm {
-  animation: shadow-hover 3s, shadow 3s infinite ease-out;
+  animation: shadow-hover 4s, shadow 4s infinite ease-out;
+  transition: 0.3s;
 }
 
 #rsm:hover {
-  animation: shadow 3s, shadow-hover 3s infinite ease-out;
+  animation: shadow 4s, shadow-hover 4s infinite ease-out;
   color: #ffffff;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
 #proj {
-  animation: shadow-hover 3s, shadow 3s infinite ease-out;
+  animation: shadow-hover 4s, shadow 4s infinite ease-out;
+  transition: 0.3s;
 }
 
 #proj:hover {
-  animation: shadow 3s, shadow-hover 3s infinite ease-out;
+  animation: shadow 4s, shadow-hover 4s infinite ease-out;
   color: #ffffff;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
 @keyframes shadow {
   0% {
-    text-shadow: -20px 0px 0px #e6e6e6cb;
+    text-shadow: -20px 0px 0px #f8f8f8cb;
   }
   50% {
-    text-shadow: -40px 0px 0px #e6e6e6cb;
+    text-shadow: -40px 0px 0px #f8f8f8cb;
   }
 
   100% {
-    text-shadow: -20px 0px 0px #e6e6e6cb;
+    text-shadow: -20px 0px 0px #f8f8f8cb;
   }
 }
 
@@ -74,4 +92,49 @@ nav {
 
 nav > div:first-child {
   font-size: 2.7rem;
+}
+
+.img {
+  position: relative;
+}
+
+#guy {
+  height: 30rem;
+  width: 35rem;
+  background-color: white;
+}
+
+#chef {
+  position: fixed;
+  bottom: 0px;
+  height: 30rem;
+}
+
+.circle {
+  position: absolute;
+  background-color: rgba(255, 161, 177, 0.719);
+  clip-path: circle(30rem at left 50rem);
+  height: 100vh;
+  width: 100vw;
+}
+.links > li {
+  list-style: none;
+}
+
+#link {
+  height: 2rem;
+  width: 2rem;
+  margin-right: 5rem;
+  transition: 0.3s;
+}
+
+#link:hover {
+  transform: scale(1.1);
+}
+
+.flexlink {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
 }
